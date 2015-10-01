@@ -1,0 +1,8 @@
+Track, Track3, Track4, Track5, Track6 - C major
+Track7, Track8, Track10, Track11 - D minor
+Track12, Track13, Track14, Track15, Track16, Track17 - E minor
+Track18, Track19, Track20, Track21, Track23, Track24 - F major
+Track25, Track26, Track27, Track28, Track29, Track30 - G major
+Track31, Track32, Track33, Track34, Track36 - A minor
+Track38, Track39, Track40, Track41 - B diminshed
+Track42, Track43, Track44, Track45, Track47 - A major
