@@ -44,6 +44,20 @@ void setup()
 
 void loop()
 {
+  readSensors();
+  
+  // Test flex values
+  
+  // Test accelerometer/fret values
+  
+  /*if (calibrateFunctionCalled)
+    {
+      calibrate();
+    }*/
+}
+
+void readSensors()
+{
   int flexL1Value = map(analogRead(flexL1), 0, 1023, flexL1Min, flexL1Max));
   int flexL2Value = map(analogRead(flexL2), 0, 1023, flexL2Min, flexL2Max));
   int flexL3Value = map(analogRead(flexL3), 0, 1023, flexL3Min, flexL3Max));
@@ -52,15 +66,6 @@ void loop()
   int flexR2Value = map(analogRead(flexR2), 0, 1023, flexR2Min, flexR2Max));
   int flexR3Value = map(analogRead(flexR3), 0, 1023, flexR3Min, flexR3Max));
   int flexR4Value = map(analogRead(flexR4), 0, 1023, flexR4Min, flexR4Max));
-  
-  // Test flex values
-  
-  // Test accelerometer/fret values
-  
-  // if (calibrateFunctionCalled)
-  // {
-  //   calibrate();
-  // }
 }
 
 void calibrate()
