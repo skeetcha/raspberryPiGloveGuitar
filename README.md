@@ -1,5 +1,5 @@
 # arduinoGloveGuitar
-A guitar with gloves
+An air guitar, using gloves to simulate the chord shape
 
 # PLEASE READ THIS!
 Do not use this project without consent. It is for a Computer Science class project.
