@@ -21,6 +21,7 @@ int rawX1, rawY1, rawZ1, rawX2, rawY2, rawZ2;
 float scaledX1, scaledY1, scaledZ1, scaledX2, scaledY2, scaledZ2;
 char values[10];
 float scale = 0.0078;
+int flex1Read, flex2Read, flex3Read, flex4Read;
 
 void setup()
 {
@@ -48,33 +49,18 @@ void setup()
 
 void loop()
 {
+  flexTest();
+  
   Serial.print("Flex 1: ");
-  Serial.print(analogRead(flex1));
+  Serial.print(flex1Read);
   Serial.print(", Flex 2: ");
-  Serial.print(analogRead(flex2));
+  Serial.print(flex2Read);
   Serial.print(", Flex 3: ");
-  Serial.print(analogRead(flex3));
+  Serial.print(flex3Read);
   Serial.print(", Flex 4: ");
-  Serial.println(analogRead(flex4));
+  Serial.println(flex4Read);
   
-  readRegister(leftAccel, DATAX0, 6, values);
-  
-  rawX1 = ((int) values[1] << 8) | (int) values[0];
-  rawY1 = ((int) values[3] << 8) | (int) values[2];
-  rawZ1 = ((int) values[5] << 8) | (int) values[4];
-  
-  readRegister(rightAccel, DATAX0, 6, values);
-  
-  rawX2 = ((int) values[1] << 8) | (int) values[0];
-  rawY2 = ((int) values[3] << 8) | (int) values[2];
-  rawZ2 = ((int) values[5] << 8) | (int) values[4];
-  
-  scaledX1 = (float) rawX1 * scale;
-  scaledY1 = (float) rawY1 * scale;
-  scaledZ1 = (float) rawZ1 * scale;
-  scaledX2 = (float) rawX2 * scale;
-  scaledY2 = (float) rawY2 * scale;
-  scaledZ2 = (float) rawZ2 * scale;
+  accelTest();
   
   Serial.print("Accelerometer 1, Raw: X - ");
   Serial.print(rawX1, DEC);
@@ -82,7 +68,6 @@ void loop()
   Serial.print(rawY1, DEC);
   Serial.print(", Z - ");
   Serial.println(rawZ1, DEC);
-  Serial.println();
   Serial.print("Accelerometer 1, Scaled: X - ");
   Serial.print(scaledX1);
   Serial.print("g, Y - ");
@@ -99,7 +84,6 @@ void loop()
   Serial.print(rawY2, DEC);
   Serial.print(", Z - ");
   Serial.println(rawZ2, DEC);
-  Serial.println();
   Serial.print("Accelerometer 2, Scaled: X - ");
   Serial.print(scaledX2);
   Serial.print("g, Y - ");
@@ -141,4 +125,34 @@ void readRegister(int CS, char registerAddress, int numBytes, char * values)
 float mapf(float x, float in_min, float in_max, float out_min, float out_max)
 {
   return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+}
+
+void flexTest()
+{
+  flex1Read = analogRead(flex1);
+  flex2Read = analogRead(flex2);
+  flex3Read = analogRead(flex3);
+  flex4Read = analogRead(flex4);
+}
+
+void accelTest()
+{
+  readRegister(leftAccel, DATAX0, 6, values);
+  
+  rawX1 = ((int) values[1] << 8) | (int) values[0];
+  rawY1 = ((int) values[3] << 8) | (int) values[2];
+  rawZ1 = ((int) values[5] << 8) | (int) values[4];
+  
+  readRegister(rightAccel, DATAX0, 6, values);
+  
+  rawX2 = ((int) values[1] << 8) | (int) values[0];
+  rawY2 = ((int) values[3] << 8) | (int) values[2];
+  rawZ2 = ((int) values[5] << 8) | (int) values[4];
+  
+  scaledX1 = (float) rawX1 * scale;
+  scaledY1 = (float) rawY1 * scale;
+  scaledZ1 = (float) rawZ1 * scale;
+  scaledX2 = (float) rawX2 * scale;
+  scaledY2 = (float) rawY2 * scale;
+  scaledZ2 = (float) rawZ2 * scale;
 }
