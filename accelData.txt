@@ -1,0 +1,454 @@
+Flex 1: 1, Flex 2: 1, Flex 3: 1, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 5, Y - -19, Z - 121
+Accelerometer 2, Scaled: X - 0.04g, Y - -0.15g, Z - 0.94g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 3, Y - -20, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 1, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 2, Y - -21, Z - 111
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 1, Y - -20, Z - 112
+Accelerometer 2, Scaled: X - 0.01g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 2, Y - -20, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 3, Y - -21, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 1, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 1, Y - -20, Z - 112
+Accelerometer 2, Scaled: X - 0.01g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 3, Y - -19, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.15g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 2, Y - -20, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 1, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 1, Y - -19, Z - 112
+Accelerometer 2, Scaled: X - 0.01g, Y - -0.15g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 2, Y - -19, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.15g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 5, Y - -23, Z - 110
+Accelerometer 2, Scaled: X - 0.04g, Y - -0.18g, Z - 0.86g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 2, Y - -20, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 2, Y - -20, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 2, Y - -20, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 2, Y - -20, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 1, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 2, Y - -20, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 1, Y - -19, Z - 112
+Accelerometer 2, Scaled: X - 0.01g, Y - -0.15g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 1, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 1, Y - -19, Z - 112
+Accelerometer 2, Scaled: X - 0.01g, Y - -0.15g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 2, Y - -20, Z - 113
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.88g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 2, Y - -20, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 2, Y - -20, Z - 111
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 1, Y - -20, Z - 112
+Accelerometer 2, Scaled: X - 0.01g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 2, Y - -20, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 2, Y - -19, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.15g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 1, Y - -19, Z - 113
+Accelerometer 2, Scaled: X - 0.01g, Y - -0.15g, Z - 0.88g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 2, Y - -19, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.15g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 1, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 1, Y - -18, Z - 112
+Accelerometer 2, Scaled: X - 0.01g, Y - -0.14g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 1, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 2, Y - -21, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 1, Flex 3: 1, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 1, Y - -20, Z - 112
+Accelerometer 2, Scaled: X - 0.01g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 1, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 2, Y - -20, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 2, Y - -20, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 2, Y - -20, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 4, Y - -17, Z - 111
+Accelerometer 2, Scaled: X - 0.03g, Y - -0.13g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 9, Y - -20, Z - 113
+Accelerometer 2, Scaled: X - 0.07g, Y - -0.16g, Z - 0.88g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 13, Y - -30, Z - 109
+Accelerometer 2, Scaled: X - 0.10g, Y - -0.23g, Z - 0.85g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 4, Y - -18, Z - 113
+Accelerometer 2, Scaled: X - 0.03g, Y - -0.14g, Z - 0.88g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 2, Y - -21, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 1, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 1, Y - -22, Z - 112
+Accelerometer 2, Scaled: X - 0.01g, Y - -0.17g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 0, Y - -21, Z - 108
+Accelerometer 2, Scaled: X - 0.00g, Y - -0.16g, Z - 0.84g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 2, Y - -21, Z - 110
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.86g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 1, Y - -21, Z - 112
+Accelerometer 2, Scaled: X - 0.01g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 1, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 1, Y - -21, Z - 111
+Accelerometer 2, Scaled: X - 0.01g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 1, Y - -21, Z - 112
+Accelerometer 2, Scaled: X - 0.01g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - -1, Y - -1, Z - -1
+Accelerometer 1, Scaled: X - -0.01g, Y - -0.01g, Z - -0.01g
+
+Accelerometer 2, Raw: X - 1, Y - -22, Z - 113
+Accelerometer 2, Scaled: X - 0.01g, Y - -0.17g, Z - 0.88g
+
+Flex 1: 0, Flex 2: 1, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - 0, Y - 0, Z - 0
+Accelerometer 1, Scaled: X - 0.00g, Y - 0.00g, Z - 0.00g
+
+Accelerometer 2, Raw: X - 4, Y - -22, Z - 113
+Accelerometer 2, Scaled: X - 0.03g, Y - -0.17g, Z - 0.88g
+
+Flex 1: 0, Flex 2: 1, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - 0, Y - 0, Z - 0
+Accelerometer 1, Scaled: X - 0.00g, Y - 0.00g, Z - 0.00g
+
+Accelerometer 2, Raw: X - 2, Y - -18, Z - 111
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.14g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 1, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - 0, Y - 0, Z - 0
+Accelerometer 1, Scaled: X - 0.00g, Y - 0.00g, Z - 0.00g
+
+Accelerometer 2, Raw: X - 3, Y - -18, Z - 110
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.14g, Z - 0.86g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - 0, Y - 0, Z - 0
+Accelerometer 1, Scaled: X - 0.00g, Y - 0.00g, Z - 0.00g
+
+Accelerometer 2, Raw: X - 2, Y - -17, Z - 110
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.13g, Z - 0.86g
+
+Flex 1: 0, Flex 2: 1, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - 0, Y - 0, Z - 0
+Accelerometer 1, Scaled: X - 0.00g, Y - 0.00g, Z - 0.00g
+
+Accelerometer 2, Raw: X - 2, Y - -21, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - 0, Y - 0, Z - 0
+Accelerometer 1, Scaled: X - 0.00g, Y - 0.00g, Z - 0.00g
+
+Accelerometer 2, Raw: X - 2, Y - -21, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - 0, Y - 0, Z - 0
+Accelerometer 1, Scaled: X - 0.00g, Y - 0.00g, Z - 0.00g
+
+Accelerometer 2, Raw: X - 2, Y - -21, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.16g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - 0, Y - 0, Z - 0
+Accelerometer 1, Scaled: X - 0.00g, Y - 0.00g, Z - 0.00g
+
+Accelerometer 2, Raw: X - 1, Y - -24, Z - 114
+Accelerometer 2, Scaled: X - 0.01g, Y - -0.19g, Z - 0.89g
+
+Flex 1: 0, Flex 2: 1, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - 0, Y - 0, Z - 0
+Accelerometer 1, Scaled: X - 0.00g, Y - 0.00g, Z - 0.00g
+
+Accelerometer 2, Raw: X - 3, Y - -15, Z - 108
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.12g, Z - 0.84g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - 0, Y - 0, Z - 0
+Accelerometer 1, Scaled: X - 0.00g, Y - 0.00g, Z - 0.00g
+
+Accelerometer 2, Raw: X - 16, Y - -4, Z - 113
+Accelerometer 2, Scaled: X - 0.12g, Y - -0.03g, Z - 0.88g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - 0, Y - 0, Z - 0
+Accelerometer 1, Scaled: X - 0.00g, Y - 0.00g, Z - 0.00g
+
+Accelerometer 2, Raw: X - 8, Y - -18, Z - 111
+Accelerometer 2, Scaled: X - 0.06g, Y - -0.14g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 1, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - 0, Y - 0, Z - 0
+Accelerometer 1, Scaled: X - 0.00g, Y - 0.00g, Z - 0.00g
+
+Accelerometer 2, Raw: X - 3, Y - -26, Z - 113
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.20g, Z - 0.88g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - 0, Y - 0, Z - 0
+Accelerometer 1, Scaled: X - 0.00g, Y - 0.00g, Z - 0.00g
+
+Accelerometer 2, Raw: X - 2, Y - -25, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.19g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - 0, Y - 0, Z - 0
+Accelerometer 1, Scaled: X - 0.00g, Y - 0.00g, Z - 0.00g
+
+Accelerometer 2, Raw: X - 3, Y - -18, Z - 109
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.14g, Z - 0.85g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - 0, Y - 0, Z - 0
+Accelerometer 1, Scaled: X - 0.00g, Y - 0.00g, Z - 0.00g
+
+Accelerometer 2, Raw: X - 4, Y - -24, Z - 113
+Accelerometer 2, Scaled: X - 0.03g, Y - -0.19g, Z - 0.88g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - 0, Y - 0, Z - 0
+Accelerometer 1, Scaled: X - 0.00g, Y - 0.00g, Z - 0.00g
+
+Accelerometer 2, Raw: X - 1, Y - -23, Z - 111
+Accelerometer 2, Scaled: X - 0.01g, Y - -0.18g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 1, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - 0, Y - 0, Z - 0
+Accelerometer 1, Scaled: X - 0.00g, Y - 0.00g, Z - 0.00g
+
+Accelerometer 2, Raw: X - 2, Y - -24, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.19g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - 0, Y - 0, Z - 0
+Accelerometer 1, Scaled: X - 0.00g, Y - 0.00g, Z - 0.00g
+
+Accelerometer 2, Raw: X - 1, Y - -23, Z - 111
+Accelerometer 2, Scaled: X - 0.01g, Y - -0.18g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - 0, Y - 0, Z - 0
+Accelerometer 1, Scaled: X - 0.00g, Y - 0.00g, Z - 0.00g
+
+Accelerometer 2, Raw: X - 2, Y - -23, Z - 112
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.18g, Z - 0.87g
+
+Flex 1: 0, Flex 2: 0, Flex 3: 0, Flex 4: 0
+Accelerometer 1, Raw: X - 0, Y - 0, Z - 0
+Accelerometer 1, Scaled: X - 0.00g, Y - 0.00g, Z - 0.00g
+
+Accelerometer 2, Raw: X - 2, Y - -24, Z - 111
+Accelerometer 2, Scaled: X - 0.02g, Y - -0.19g, Z - 0.87g
