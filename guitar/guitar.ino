@@ -30,6 +30,15 @@ int address = 0;
 
 void setup()
 {
+  EEPROM.write(address, GAUGE);
+  
+  address += 1;
+  
+  if (address == EEPROM.length())
+  {
+    address = 0;
+  }
+  
   pinMode(flex1, OUTPUT);
   pinMode(flex2, OUTPUT);
   pinMode(flex3, OUTPUT);
