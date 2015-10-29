@@ -175,7 +175,7 @@ void eepromLoop()
   
   unsigned long int timeNow = EEPROM.read(address);
   
-  if ((GAUGE == 0 && timeNow == 72000000) || (GAUGE == 1 && timeNow == 79200000) || (GAUGE == 2 && timeNow == 86400000) || (GAUGE == 3 && timeNow == 93600000) || (GAUGE == 4 && timeNow == 100800000) || (GAUGE == 5 && timeNow == 108000000) || (GAUGE == 6 && timeNow == 115200000) || (GAUGE == 7 && timeNow == 122400000) || (GAUGE == 8 && timeNow == 129600000) || (GAUGE == 9 && timeNow == 136800000) || (GAUGE == 10 && timeNow == 144000000) || (GAUGE == 11 && timeNow == 151200000)
+  if ((GAUGE == 0 && timeNow == 72000000) || (GAUGE == 1 && timeNow == 79200000) || (GAUGE == 2 && timeNow == 86400000) || (GAUGE == 3 && timeNow == 93600000) || (GAUGE == 4 && timeNow == 100800000) || (GAUGE == 5 && timeNow == 108000000) || (GAUGE == 6 && timeNow == 115200000) || (GAUGE == 7 && timeNow == 122400000) || (GAUGE == 8 && timeNow == 129600000) || (GAUGE == 9 && timeNow == 136800000) || (GAUGE == 10 && timeNow == 144000000) || (GAUGE == 11 && timeNow == 151200000))
   {
     Serial.println("Strings broke");
   }
