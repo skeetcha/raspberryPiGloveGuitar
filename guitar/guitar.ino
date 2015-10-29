@@ -1,10 +1,9 @@
 #include <SPI.h>
 #include <EEPROM.h>
+#include <ArduinoJson.h>
 
 #define leftAccel 7
 #define rightAccel 6
-
-#define GAUGE 0
 
 int flex1 = A0;
 int flex2 = A1;
@@ -28,9 +27,20 @@ int flex1Read, flex2Read, flex3Read, flex4Read;
 
 int address = 0;
 
+int gauge;
+
 void setup()
 {
-  EEPROM.write(address, GAUGE);
+  if (!SD.exists("config.json"))
+  {
+    setupConfig();
+  }
+  else
+  {
+    // Parse config file
+  }
+  
+  EEPROM.write(address, gauge);
   
   address += 1;
   
@@ -110,6 +120,22 @@ void loop()
   delay(500);
 }
 
+void setupConfig()
+{
+  StaticJsonBuffer<200> jsonBuffer;
+  JsonObject& root = jsonBuffer.createObject();
+  root["right"] = 1;
+  root["gauge"] = 0;
+  
+  JsonArray& data = root.createNestedArray("tuning");
+  data.add("E");
+  data.add("a");
+  data.add("d");
+  data.add("g");
+  data.add("B");
+  data.add("e");
+}
+
 void eepromLoop()
 {
   unsigned long time = millis();
@@ -118,65 +144,65 @@ void eepromLoop()
   EEPROM.write(address, prevTime + time);
   
   Serial.print("On Gauge ");
-  Serial.println(GAUGE);
+  Serial.println(gauge);
   Serial.print("Time until strings have broken: ");
   
-  if (GAUGE == 0)
+  if (gauge == 0)
   {
     Serial.print((72000000 - (prevTime + time)) / 3600000);
     Serial.println(" hours");
   }
-  else if (GAUGE == 1)
+  else if (gauge == 1)
   {
     Serial.print((79200000 - (prevTime + time)) / 3600000);
     Serial.println(" hours");
   }
-  else if (GAUGE == 2)
+  else if (gauge == 2)
   {
     Serial.print((86400000 - (prevTime + time)) / 3600000);
     Serial.println(" hours");
   }
-  else if (GAUGE == 3)
+  else if (gauge == 3)
   {
     Serial.print((93600000 - (prevTime + time)) / 3600000);
     Serial.println(" hours");
   }
-  else if (GAUGE == 4)
+  else if (gauge == 4)
   {
     Serial.print((100800000 - (prevTime + time)) / 3600000);
     Serial.println(" hours");
   }
-  else if (GAUGE == 5)
+  else if (gauge == 5)
   {
     Serial.print((108000000 - (prevTime + time)) / 3600000);
     Serial.println(" hours");
   }
-  else if (GAUGE == 6)
+  else if (gauge == 6)
   {
     Serial.print((115200000 - (prevTime + time)) / 3600000);
     Serial.println(" hours");
   }
-  else if (GAUGE == 7)
+  else if (gauge == 7)
   {
     Serial.print((122400000 - (prevTime + time)) / 3600000);
     Serial.println(" hours");
   }
-  else if (GAUGE == 8)
+  else if (gauge == 8)
   {
     Serial.print((129600000 - (prevTime + time)) / 3600000);
     Serial.println(" hours");
   }
-  else if (GAUGE == 9)
+  else if (gauge == 9)
   {
     Serial.print((136800000 - (prevTime + time)) / 3600000);
     Serial.println(" hours");
   }
-  else if (GAUGE == 10)
+  else if (gauge == 10)
   {
     Serial.print((144000000 - (prevTime + time)) / 3600000);
     Serial.println(" hours");
   }
-  else if (GAUGE == 11)
+  else if (gauge == 11)
   {
     Serial.print((151200000 - (prevTime + time)) / 3600000);
     Serial.println(" hours");
@@ -184,7 +210,7 @@ void eepromLoop()
   
   unsigned long int timeNow = EEPROM.read(address);
   
-  if ((GAUGE == 0 && timeNow == 72000000) || (GAUGE == 1 && timeNow == 79200000) || (GAUGE == 2 && timeNow == 86400000) || (GAUGE == 3 && timeNow == 93600000) || (GAUGE == 4 && timeNow == 100800000) || (GAUGE == 5 && timeNow == 108000000) || (GAUGE == 6 && timeNow == 115200000) || (GAUGE == 7 && timeNow == 122400000) || (GAUGE == 8 && timeNow == 129600000) || (GAUGE == 9 && timeNow == 136800000) || (GAUGE == 10 && timeNow == 144000000) || (GAUGE == 11 && timeNow == 151200000))
+  if ((gauge == 0 && timeNow == 72000000) || (gauge == 1 && timeNow == 79200000) || (gauge == 2 && timeNow == 86400000) || (gauge == 3 && timeNow == 93600000) || (gauge == 4 && timeNow == 100800000) || (gauge == 5 && timeNow == 108000000) || (gauge == 6 && timeNow == 115200000) || (gauge == 7 && timeNow == 122400000) || (gauge == 8 && timeNow == 129600000) || (gauge == 9 && timeNow == 136800000) || (gauge == 10 && timeNow == 144000000) || (gauge == 11 && timeNow == 151200000))
   {
     Serial.println("Strings broke");
   }
