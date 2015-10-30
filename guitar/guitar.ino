@@ -1,6 +1,6 @@
 #include <SPI.h>
+#include <SD.h>
 #include <EEPROM.h>
-#include <ArduinoJson.h>
 
 #define leftAccel 7
 #define rightAccel 6
@@ -27,17 +27,56 @@ int flex1Read, flex2Read, flex3Read, flex4Read;
 
 int address = 0;
 
-int gauge;
+int gauge; // 0 - 11 for the different gauges. See project word doc
+bool right; // True for right-handed, false for left-handed
+char tuning[6];
+
+const int chipSelect = 8;
+Sd2Card card;
+
+/*
+Standard Config File:
+{
+  "gauge": 0,
+  "right": 1,
+  "tuning" : [ 'E', 'a', 'd', 'g', 'B', 'e' ]
+}
+*/
 
 void setup()
 {
+  pinMode(53, OUTPUT);
+  pinMode(chipSelect, OUTPUT);
+  
+  Serial.print("\nInitializing SD card...");
+  
+  if (!SD.begin(chipSelect)) {
+    Serial.println("Card failed");
+    return;
+  }
+  
+  if (!card.init(SPI_HALF_SPEED, chipSelect))
+  {
+    Serial.println("Initialization failed. Things to check: ");
+    Serial.println("* is a card inserted?");
+    Serial.println("* is your wiring correct?");
+    Serial.println("* did you change the chipSelect pin to match your shield or module?");
+    return;
+  }
+  else
+  {
+    Serial.println("Wiring is correct and a card is present.");
+  }
+  
   if (!SD.exists("config.json"))
   {
     setupConfig();
   }
   else
   {
-    // Parse config file
+    File configFile = SD.open("config.json");
+    char fileContents = configFile.read();
+    parseConfig(fileContents);
   }
   
   EEPROM.write(address, gauge);
@@ -120,20 +159,14 @@ void loop()
   delay(500);
 }
 
+void parseConfig(char jsonString)
+{
+  
+}
+
 void setupConfig()
 {
-  StaticJsonBuffer<200> jsonBuffer;
-  JsonObject& root = jsonBuffer.createObject();
-  root["right"] = 1;
-  root["gauge"] = 0;
   
-  JsonArray& data = root.createNestedArray("tuning");
-  data.add("E");
-  data.add("a");
-  data.add("d");
-  data.add("g");
-  data.add("B");
-  data.add("e");
 }
 
 void eepromLoop()
