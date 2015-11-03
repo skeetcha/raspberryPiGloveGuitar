@@ -33,14 +33,26 @@ char tuning[6];
 
 const int chipSelect = 8;
 Sd2Card card;
+byte contents[256];
 
 /*
 Standard Config File:
-{
-  "gauge": 0,
-  "right": 1,
-  "tuning" : [ 'E', 'a', 'd', 'g', 'B', 'e' ]
-}
+# gauge
+0
+# right
+1
+# tuning: string 1
+E
+# tuning: string 2
+a
+# tuning: string 3
+d
+# tuning: string 4
+g
+# tuning: string 5
+B
+# tuning: string 6
+e
 */
 
 void setup()
@@ -68,15 +80,14 @@ void setup()
     Serial.println("Wiring is correct and a card is present.");
   }
   
-  if (!SD.exists("config.json"))
+  if (!SD.exists("config.txt"))
   {
     setupConfig();
   }
   else
   {
-    File configFile = SD.open("config.json");
-    char fileContents = configFile.read();
-    parseConfig(fileContents);
+    File configFile = SD.open("config.txt");
+    parseConfig(configFile);
   }
   
   EEPROM.write(address, gauge);
@@ -159,14 +170,109 @@ void loop()
   delay(500);
 }
 
-void parseConfig(char jsonString)
+void readLine(File f)
 {
+  bool done = false;
+  int i = 0;
   
+  while (!done)
+  {
+    done = !f.available();
+    bool comment = false;
+    
+    if (done)
+    {
+      break;
+    }
+    
+    byte c = f.read();
+    
+    if (!comment)
+    {
+      switch (c)
+      {
+        case '#':
+          comment = true;
+          break;
+        case 13:
+          if (f.read() == 10)
+          {
+            done = true;
+          }
+          break;
+        default:
+          contents[i] = c;
+          i += 1;
+          break;
+      }
+    }
+    else if (comment && c == 13)
+    {
+      if (f.read() == 10)
+      {
+        comment = false;
+      }
+    }
+    
+    if (done)
+    {
+      break;
+    }
+    
+    delay(20);
+  }
+}
+
+void parseConfig(File cfg)
+{
+  bool done = false;
+  
+  readLine(cfg);
+  gauge = contents[0];
+  
+  readLine(cfg);
+  if (contents[0] == 1)
+  {
+    right = true;
+  }
+  else
+  {
+    right = false;
+  }
+  
+  readLine(cfg);
+  tuning[0] = contents[0];
+  readLine(cfg);
+  tuning[1] = contents[0];
+  readLine(cfg);
+  tuning[2] = contents[0];
+  readLine(cfg);
+  tuning[3] = contents[0];
+  readLine(cfg);
+  tuning[4] = contents[0];
+  readLine(cfg);
+  tuning[5] = contents[0];
 }
 
 void setupConfig()
 {
-  
+  File configFile = SD.open("config.txt");
+  configFile.println("# gauge");
+  configFile.println(0);
+  configFile.println("# right");
+  configFile.println(1);
+  configFile.println("# tuning: string 1");
+  configFile.println('E');
+  configFile.println("# tuning: string 2");
+  configFile.println('a');
+  configFile.println("# tuning: string 3");
+  configFile.println('d');
+  configFile.println("# tuning: string 4");
+  configFile.println('g');
+  configFile.println("# tuning: string 5");
+  configFile.println('B');
+  configFile.println("# tuning: string 6");
+  configFile.println('e');
 }
 
 void eepromLoop()
