@@ -19,6 +19,8 @@ char DATAY1 = 0x35;
 char DATAZ0 = 0x36;
 char DATAZ1 = 0x37;
 
+//#define USE_PLOTTER
+
 int rawX1, rawY1, rawZ1, rawX2, rawY2, rawZ2;
 float scaledX1, scaledY1, scaledZ1, scaledX2, scaledY2, scaledZ2;
 char values[10];
@@ -124,8 +126,10 @@ void setup()
 void loop()
 {
   eepromLoop();
-  flexTest();
-  
+  flexTest();  
+  accelTest();
+
+  #ifndef USE_PLOTTER
   Serial.print("Flex 1: ");
   Serial.print(flex1Read);
   Serial.print(", Flex 2: ");
@@ -134,9 +138,6 @@ void loop()
   Serial.print(flex3Read);
   Serial.print(", Flex 4: ");
   Serial.println(flex4Read);
-  
-  accelTest();
-  
   Serial.print("Accelerometer 1, Raw: X - ");
   Serial.print(rawX1, DEC);
   Serial.print(", Y - ");
@@ -152,7 +153,6 @@ void loop()
   Serial.println("g");
   Serial.println();
   delay(500);
-  
   Serial.print("Accelerometer 2, Raw: X - ");
   Serial.print(rawX2, DEC);
   Serial.print(", Y - ");
@@ -168,6 +168,9 @@ void loop()
   Serial.println("g");
   Serial.println();
   delay(500);
+  #else
+  Serial.println(flex1Read + " " + flex2Read + " " + flex3Read + " " + flex4Read + " " rawX1 + " " + rawY1 + " " + rawZ1 + " " + rawX2 + " " + rawY2 + " " + rawZ2 + " " + scaledX1 + " " + scaledY1 + " " + scaledZ1 + " " + scaledX2 + " " + scaledY2 + " " + scaledZ2);
+  #endif
 }
 
 void readLine(File f)
